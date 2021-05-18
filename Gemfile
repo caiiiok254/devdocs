@@ -10,7 +10,7 @@ gem 'rake'
 gem 'wdm', platform: :mswin
 
 group :test do
-  gem 'html-proofer'
+  gem 'html-proofer', '>= 3.15.3'
   gem 'mdl', '= 0.7.0'
   gem 'launchy'
 end
@@ -21,7 +21,7 @@ group :optimization do
 end
 
 group :jekyll_plugins do
-  gem 'jekyll-algolia', '~> 1.0'
+  gem 'jekyll-algolia', '~> 1.6', '>= 1.6.0'
   gem 'jekyll-redirect-from'
   gem 'jekyll-sitemap'
   gem 'jekyll-titles-from-headings'
